@@ -1,4 +1,4 @@
-Exploring Crime Trends in Los Angles (2020-2023)
+## Exploring Crime Trends in Los Angles (2020-2023)
 
 In a thorough examination of crime data spanning 2020-2023, significant trends have emerged, offering valuable insights into reported incidents.
 
