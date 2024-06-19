@@ -1,11 +1,11 @@
-## Exploring Crime Trends in Los Angles (2020-2023)
+# Exploring Crime Trends in Los Angles (2020-2023)
 
+## Overview
 
 The dataset, sourced from the website https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data, compiles crime data in the city of Los Angeles from 2020 to the present, offering a comprehensive record of public safety incidents. With a substantial dataset of 843515 records, each row captures details of specific crimes, while the 28 columns provide a wealth of information including incident dates, locations, crime types, victim demographics, and investigative status. This dataset serves as a valuable resource for analyzing and understanding the dynamics of criminal activity in Los Angeles over the specified timeframe
 
-Significant trends have emerged in a thorough examination of crime data spanning 2020-2023, offering valuable insights into reported incidents.
 
-#### How has the overall crime rate in the city evolved over the past few years?
+## How has the overall crime rate in the city evolved over the past few years?
 
 To effectively analyze the evolution of the city's overall crime rate over the past few years, our approach involves a multi-dimensional examination of the available crime data. Firstly, we focus on the annual aggregation of crime incidents, providing a clear picture of the year-over-year changes in crime rate. This broad perspective is crucial to understand the general trend, whether there's an increase or decrease in criminal activities over the years.
 
@@ -15,7 +15,7 @@ The data reveals a fluctuating trend in total crimes during this period. In 2020
 
 Then, we use this SQL query to calculate the total number of crimes for each quarter of each year, by joining our fact table with the date table and grouping the results by both year and quarter.
 
-#### Summary of Quarterly Crime Data:
+### Summary of Quarterly Crime Data:
 
 The data reveals the total crimes for each quarter over a four-year period, offering insights into seasonal trends and year-over-year changes in crime rates.
 Analysis of Yearly and Seasonal Trends:
@@ -30,7 +30,7 @@ The consistent rise in crime rates in 2021 and the peak in 2022 suggest an escal
 The significant decrease in crimes in the fourth quarter of 2023 might indicate the effectiveness of crime prevention measures or a change in external factors impacting crime rates.
 The data highlights the necessity for seasonal and quarter-specific strategies in crime management and resource allocation.
 
-#### Identification of Peak Crime Months:
+### Identification of Peak Crime Months:
 
 The analysis begins by listing the months with the highest crime rates in 2022, providing specific figures for each month to illustrate the data clearly.
 Each month is presented alongside its total crime count, giving a detailed view of when criminal activities were most prevalent.
@@ -51,7 +51,7 @@ Conclusion:
 The concluding remark synthesizes the analysis, stating that the monthly crime data of 2022 reflect significant variations in criminal activities across different times of the year.
 
 
-### What are the top 10 types of crimes that have been solved and unsolved?
+## What are the top 10 types of crimes that have been solved and unsolved?
 
 Our team chose to explore this question within the dataset because understanding the resolution status of different types of crimes is crucial for public safety and law enforcement efficiency. Analyzing solved and unsolved crime cases allows us to delve deeper into crime patterns, thereby providing data support for optimizing law enforcement strategies and effective allocation of public resources.
 
